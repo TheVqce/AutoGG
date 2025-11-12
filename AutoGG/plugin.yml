@@ -1,0 +1,14 @@
+name: AutoGG
+main: autogg\Main
+version: 1.0.0
+api: 5.0.0
+author: TheVqce
+description: Automatically sends "gg" after winning a duel PM5.
+commands:
+  autogg:
+    description: Toggle AutoGG on/off
+    usage: "/autogg"
+    permission: autogg.command
+permissions:
+  autogg.command:
+    default: true
